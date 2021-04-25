@@ -1,0 +1,35 @@
+body {background-color: rgba(90, 86, 86, 0.534);
+    color:honeydew;
+    
+}
+
+h1#titulo {
+    background-color: hsl(152deg 59% 41% / 51%);
+    text-shadow: 0px 0px 7px #ef14148c;
+    align-items: center;
+    text-align: center;
+}
+
+#principal{
+    background-color: #fdfdfd4a;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+
+#pleft{
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    
+}
+
+h2#pleft{
+    margin:-21px 1px -17px;
+    color: chocolate;
+}
