@@ -1,5 +1,5 @@
 body {background-color: rgba(90, 86, 86, 0.534);
-    color:honeydew;
+    color:rgb(240, 252, 255);
     
 }
 
@@ -13,9 +13,11 @@ h1#titulo {
 #principal{
     background-color: #fdfdfd4a;
     display: flex;
-    justify-content: space-between;
     flex-wrap: nowrap;
     flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
 }
 
 
@@ -26,10 +28,39 @@ h1#titulo {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    padding: 60px;
     
 }
 
-h2#pleft{
+#pleft h2{
     margin:-21px 1px -17px;
-    color: chocolate;
+    color: rgb(38, 52, 240);
+    text-shadow: 0 0 4px whitesmoke;
+}
+
+
+#pleft h1{
+    color: white;
+    text-shadow: 0 0 4px black;
+}
+#pleft h1::first-letter{
+ text-transform: uppercase;
+ 
+ }
+ #pleft p{
+    color: white;
+    text-shadow: 0 0 4px black;
+}
+
+#pcentral{
+    margin: 40px 309px 40px 40px;
+}
+
+#pright{
+        
+}
+
+#icoeltiempo{
+    background-color:skyblue;
+    border-radius:40px
 }
