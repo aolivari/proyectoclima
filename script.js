@@ -37,7 +37,7 @@ function buscaClima(){
      Pico.src = IconAddress + json.data[0].weather.icon+".png"
      gps[1]=json.data[0].lat
      gps[0]=json.data[0].lon
-     console.log(Pico.src)
+     
      
   })
   .then(function(){
@@ -73,7 +73,7 @@ var map = new mapboxgl.Map({
     zoom: 8
 });
 
-console.log(gps)
+
 // // Create a default Marker, colored black, rotated 45 degrees. marker 1
 // var marker = new mapboxgl.Marker({ color: 'black', rotation: 45 })
 //     .setLngLat(gps)//esta linea hay que intervenirla
