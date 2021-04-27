@@ -23,7 +23,7 @@ button.addEventListener('click',event=>{
 
 
 function buscaClima(){
-  let url = new URL ("http://api.weatherbit.io/v2.0/current")
+  let url = new URL ("https://api.weatherbit.io/v2.0/current")
   url.searchParams.set("key",key)
   url.searchParams.set("city", pcity.innerText)
   url.searchParams.set("country", pcountry.innerText)
