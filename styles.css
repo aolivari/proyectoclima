@@ -1,7 +1,26 @@
-body {background-color: rgba(90, 86, 86, 0.534);
+body {
+    background-color: rgba(90, 86, 86, 0.534);
     color:rgb(240, 252, 255);
     
 }
+
+#map { 
+    position: relative;
+    top: 0px;
+    bottom: 0;
+    left: -16em;
+    width: 200%;
+    overflow: unset;
+    padding-top: 17em;
+    padding-right: 21em;
+    padding-bottom: 10em;
+    padding-left: 10em;
+    height: 200%;
+}
+
+    
+
+
 
 h1#titulo {
     background-color: hsl(152deg 59% 41% / 51%);
@@ -56,11 +75,23 @@ h1#titulo {
     margin: 40px 309px 40px 40px;
 }
 
-#pright{
-        
+#busqueda{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;       
 }
 
 #icoeltiempo{
-    background-color:skyblue;
-    border-radius:40px
+    background: radial-gradient( rgb(248, 248, 248),rgb(93, 194, 241) );
+    border-radius:40px;
+    box-shadow: 1px 2px 20px 7px #b4e1f3c4
 }
+
+#flota{
+    float: right;
+    margin: -62px;
+    padding: 19px 35px 10px 2px;
+}
+
+
+

@@ -5,31 +5,50 @@
     <link rel="favicon" href="/favicon.ico"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
     <link rel="stylesheet" href="/proyectoclima/styles.css">
+    
     <title>Document</title>
 </head>
 <body>
+    
 <div>
 <h1 id="titulo">El clima</h1>    
 </div>
 
 <div id="principal">
+
+
     <div id="pright">
         <form id="busqueda" action="buscar">
-            <input id="bbusqueda" type="text" placeholder="escribe la ciudad" >
             <input id="bbusqueda2" autocomplete="country" type="text" placeholder="escribe el codigo del Pais" >
+
+            <input id="bbusqueda" type="text" placeholder="escribe la ciudad" >
+            
             <input id="button" type="button" value="Buscar">
         </form>
     </div>
 
+
+
+    
     <div id=pcentral>
-        <img id="map" src="https://bit.ly/3etn5av" alt="">
+
+        <div id="map"></div> 
+        
+
+
     </div>
+
+
+
     <div id=pleft>
         <img id="icoeltiempo" src="https://bit.ly/3sQal39" alt="" style="height: 100px;">
         <h1>ciudad</h1>
+        <p id="flota">pais</p>
         <h2>39º</h2>
-        <p>prónostico</p>
+        <p id="pronostico">prónostico</p>
     </div>
 
 </div>
@@ -38,6 +57,10 @@
     Hecho y diseñado por Toño olivari
 </p>  
 
-<script src="script.js"></script>  
+
+
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
+<script src="script.js"></script> 
+
 </body>
 </html>
